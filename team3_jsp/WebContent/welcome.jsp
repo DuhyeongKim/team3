@@ -25,6 +25,11 @@
 	<% 
 	int m = calculator.Cube(4);
 	out.print("Cube(4) : "+ m);
-	%>
+	%><br>
+	
+	 
+	EL param example : ${ param.uname } <br>
+	
+	EL sessionScope example : Value is ${ sessionScope.user }  <br>
 </body>
 </html>
