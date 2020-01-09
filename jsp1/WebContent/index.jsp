@@ -8,15 +8,16 @@
 <title>jsp code</title>
 </head>
 <body>
-<form>
-<%  
-String name=request.getParameter("uname");  
-out.print("welcome "+name);
-%>  
+<form action="second.jsp" method="post">  
+<input type="text" name="uname">  
+<input type="submit" value="go"><br/>   
 </form>  
 <h1>Hello World!</h1>
 <% out.print("welcome to jsp"); %> <br>
 <%= new Date() %> <br>
-<%= "Welcome "+request.getParameter("uname") %>  
+<%= "Welcome "+request.getParameter("uname") %>  <br>
+  
+<a href="welcome.jsp">second jsp page</a>  
+
 </body>
 </html>
