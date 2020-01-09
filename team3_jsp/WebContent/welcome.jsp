@@ -20,6 +20,11 @@
 	}  
 	%>  
 	<%= "Cube of 3 is:"+cube(3) %><br>
-
+	<h1> Use jSP:useBean</h1>
+	<jsp:useBean id="calculator" class = "team3_jsp.Calculator"></jsp:useBean>
+	<% 
+	int m = calculator.Cube(4);
+	out.print("Cubee(4) : "+ m);
+	%>
 </body>
 </html>
