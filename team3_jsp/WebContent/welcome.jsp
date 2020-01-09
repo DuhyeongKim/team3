@@ -24,7 +24,7 @@
 	<jsp:useBean id="calculator" class = "team3_jsp.Calculator"></jsp:useBean>
 	<% 
 	int m = calculator.Cube(4);
-	out.print("Cubee(4) : "+ m);
+	out.print("Cube(4) : "+ m);
 	%>
 </body>
 </html>
