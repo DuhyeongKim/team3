@@ -9,7 +9,7 @@
 <body>
 <!--빈 객체 생성 / Calculator bean = new Calculator(); 와 같은 뜻 -->  
 <jsp:useBean id="bean" class="team3_jsp.Calculator" />
-
+sds
 <!-- form으로 부터 전달된 값을 bean 객체의 프로퍼티에 설정 
 	 form 태그의 name과 자바빈의 프로퍼티명과 동일한 것에 대응-->
 <jsp:setProperty property="*" name="bean"/>
