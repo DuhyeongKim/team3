@@ -1,17 +1,12 @@
 package team3_jsp;
 
 public class User {
-        private String userID;
+		private int id;
         private String userPassword;
         private String userName;
         private String userGender;
+        private String userID;
         
-        public String getUserID() {
-            return userID;
-        }
-        public void setUserID(String userID) {
-            this.userID = userID;
-        }
         public String getUserPassword() {
             return userPassword;
         }
@@ -30,6 +25,20 @@ public class User {
         public void setUserGender(String userGender) {
             this.userGender = userGender; 
         }
+		public String getUserID() {
+			return userID;
+		}
+		public void setUserID(String userID) {
+			this.userID = userID;
+		}
+		public int getId() {
+			return id;
+		}
+		public void setId(int id) {
+			this.id = id;
+		}
+
+
 
         
 }
