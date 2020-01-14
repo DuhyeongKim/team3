@@ -1,3 +1,5 @@
+<%@ page language="java" contentType="text/html; charset=EUC-KR"
+    pageEncoding="EUC-KR"%>
 <!DOCTYPE html>
 <html>
 <head>
@@ -12,5 +14,9 @@
 	<form action="goGoogle.jsp">  
 	<input type="submit" value="goGoogle"><br/>  
 	</form>  
+	
+	<%  
+	session.setAttribute("user","sonoo");  
+	%> 
 </body>
 </html>

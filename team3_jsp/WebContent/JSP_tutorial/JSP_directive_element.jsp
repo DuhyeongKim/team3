@@ -17,5 +17,7 @@
 	
 	<%@ page import="java.util.Date" %>  
 		Today is: <%= new Date() %>  
+		
+	
 </body>
 </html>
