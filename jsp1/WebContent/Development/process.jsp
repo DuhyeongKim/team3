@@ -2,7 +2,7 @@
 <jsp:useBean id="obj" class="com.camp.User1"/>  
   
 <jsp:setProperty property="*" name="obj"/>  
-  
+ <%out.print("sdsd"); %> 
 <%  
 int status=RegisterDao.register(obj);  
 if(status>0)  

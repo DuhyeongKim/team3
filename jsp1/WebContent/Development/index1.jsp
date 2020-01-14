@@ -17,7 +17,19 @@
 </form>  
 
 <h2>Login Form</h2>
+
+<a href="login.jsp">login</a>| 
+
+
 <h2>Uploading Form</h2>
+
+<form action="upload.jsp" method="post" enctype="multipart/form-data">  
+Select File:<input type="file" name="fname"/><br/>  
+leave the message and press the "Enter Key"
+<input type="text" name="upload!"/>  
+</form>  
 <h2>Downloading Form</h2>
+<a href="download.jsp">download the secret file</a> 
+
 </body>
 </html>
