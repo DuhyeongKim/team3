@@ -1,42 +1,48 @@
 package com.camp;
 
 public class User {
-	private String name = "wew";
-	
-	
-
-	public String getName() {
-		return name;
-	}
-
-	public void setName(String name) {
-		this.name = name;
-	}
-
-	public String getUserID() {
-		// TODO Auto-generated method stub
-		return null;
-	}
-
+	private String UserName;
+	private String UserID;
+	private String UserGender;
+	private String UserEmail;
+	private String UserPassword;
 	public String getUserName() {
-		// TODO Auto-generated method stub
-		return null;
+		return UserName;
 	}
-
+	public void setUserName(String userName) {
+		UserName = userName;
+	}
+	public String getUserID() {
+		return UserID;
+	}
+	public void setUserID(String userID) {
+		UserID = userID;
+	}
 	public String getUserGender() {
-		// TODO Auto-generated method stub
-		return null;
+		return UserGender;
 	}
-
+	public void setUserGender(String userGender) {
+		UserGender = userGender;
+	}
 	public String getUserEmail() {
-		// TODO Auto-generated method stub
-		return null;
+		return UserEmail;
 	}
-
+	public void setUserEmail(String userEmail) {
+		UserEmail = userEmail;
+	}
 	public String getUserPassword() {
-		// TODO Auto-generated method stub
-		return null;
+		return UserPassword;
 	}
+	public void setUserPassword(String userPassword) {
+		UserPassword = userPassword;
+	}
+	@Override
+	public String toString() {
+		return "User [UserName=" + UserName + ", UserID=" + UserID + ", UserGender=" + UserGender + ", UserEmail="
+				+ UserEmail + ", UserPassword=" + UserPassword + "]";
+	}
+	
+
 	
 
 }
