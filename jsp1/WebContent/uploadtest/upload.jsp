@@ -9,12 +9,12 @@
 	
 	String id = "";
 	String subject = "";
-	String fileName1 = "Du.jpg";
+	String fileName1 = "";
 	String fileName2 = "";
 	String orgfileName1 = "";
 	String orgfileName2 = "";
 	
-	String uploadPath = request.getRealPath("upload"); // upload는 폴더명 / 폴더의 경로를 구해옴
+	String uploadPath = request.getSession().getServletContext().getRealPath("upload"); // upload는 폴더명 / 폴더의 경로를 구해옴
 	//out.print(uploadPath);
 
 	try {
