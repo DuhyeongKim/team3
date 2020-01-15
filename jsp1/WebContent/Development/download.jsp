@@ -2,7 +2,7 @@
     pageEncoding="UTF-8"%>
 <%
 	String filename = "vigo.txt";
-	String filepath = "C:/guru/upload";
+	String filepath = "C:/guru/upload/";
 	response.setContentType("APPLICATION/OCTET-STREAM");
 	  response.setHeader("Content-Disposition","attachment; filename=\"" + filename + "\"");   
 	  
