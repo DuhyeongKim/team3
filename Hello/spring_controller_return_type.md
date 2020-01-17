@@ -56,3 +56,13 @@ public class HomeController {
 
 	
 }
+
+
+
+
+![image](https://user-images.githubusercontent.com/49421181/72578324-11927d00-3919-11ea-8f62-8e780d626603.png)
+
+![image](https://user-images.githubusercontent.com/49421181/72578330-1bb47b80-3919-11ea-8540-b393683772a4.png)
+
+![image](https://user-images.githubusercontent.com/49421181/72578345-266f1080-3919-11ea-870f-6e813de62a9f.png)
+
