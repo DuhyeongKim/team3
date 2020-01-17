@@ -74,9 +74,15 @@ public class HomeController {
 
 <Return Type>
 ModelAndView - ModelAndView를 생성자를 통해 만들고 .SetViewName으로 jsp view 파일을 지정해주는 방식
+	
+	
 String - return 값이 view의 이름
+
+
 void - URL이름이 곧 View의 이름
+
 Object - 잘모르겠음
+
 @responseBody - view를 통해 모델을 만들어내는게 아니라 바로 메시지를 응답하는 
 
 
