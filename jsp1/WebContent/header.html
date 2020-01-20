@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+    <script src="jquery-3.4.1.js"></script>
+
+    <script>
+      $(document).ready(function(){
+        $("button").click(function(){
+          //$("p").hide();
+          $("#p1").hide();
+          $(".p2").hide();
+          $("p:first").hide();
+          $("p").on({
+            mouseenter: function(){
+              $(this).css("background-color", "lightgray");
+            },
+            mouseleave: function(){
+              $(this).css("background-color", "lightblue");
+            },
+            click: function(){
+              $(this).css("background-color", "yellow");
+            }
+            });
+
+
+        });
+      });
+
+      $(document).ready(function(){
+        $("input").focus(function(){
+          $(this).css("background-color", "red");
+        });
+        $("input").blur(function(){
+          $(this).css("background-color", "green");
+        });
+      });
+
+    </script>
+
+  </head>
+  <body>
+    <div><p> we are the best1</p></div>
+    <div><p class="p2"> we are the best2</p></div>
+    <div><p id="p1"> we are the best3</p></div>
+    <div><p> we are the best4</p></div>
+    <div><button>Cilck me to hide paragraph</button></div>
+    Name: <input type="text" name="fullname"><br>
+    Email: <input type="text" name="email">
+
+
+  </body>
+</html>
